@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="softscroll.js"></script>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+	<div class="container">
+		<div id="heading">
+			<h1>What's Up?</h1>
+			<div class="titleblock">
+				<h6>i'm </h6><h1><i>Liam.</i><br/></h1>
+				<h5>and this is my resume...</h5>
+			</div>
+		</div>
+		<div id="navbar">
+			<ul>
+				<li><a href="#overview" class="btn btnOverview">Overview</a></li>
+				<li><a href="#qualifications" class="btn btnQualifications">Qualifications</a></li>
+				<li><a href="#contact" class="btn btnContact">Contact</a></li>
+			</ul>
+		</div>
+
+		<main>		
+
+			<div id="welcome">			
+				<h2>Welcome!</h2>
+				<p>I'm Liam. You have stumbled accross my website which doubles as my resume. If you're an employer, I hope you find what you're looking for, and if you're a fan of mine I just want to let you know that I appreciate you reading my resume for literally no reason whatsoever. I mean, seriously. If you're not looking to hire then why on earth are you even here?</p>
+				<img src="images/liampic.jpg" alt="Liam">
+			</div>
+
+
+			<div class="mainandside">
+				<div id="overview">
+					<h2>Overview</h2>
+					<p>I am a motivated student with a passion for software design and development. I focus on .NET technologies as well as web development. I am looking for an opportunity to gain hands-on experience in a professional environment.</p>
+				</div>
+
+				<div class="sidebarnavigation">
+					<ul>
+						<li><a href="#heading" class="btn btnTop">Top</a></li>
+						<li><a href="#qualifications" class="btn btnQualifications">Qualifications</a></li>
+						<li><a href="#contact" class="btn btnContact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="mainandside">
+				<div id="qualifications">
+					<h2>Qualifications</h2>
+					<ul>
+						<li>
+							<h3>Proficiency in C#</h3>
+							<p>Achieved a grade of A+ in a course centred around .NET technologies such as C#.</p>
+						</li>
+						<li>
+							<h3>Interpersonal Skills</h3>
+							<p>Assisted the communication of ESL students in creative communications environments, helping group work transcend language barriers.</p>
+						</li>
+						<li>
+							<h3>Strong Analytical Skills</h3>
+							<p>Oversaw and executed a project to build a high-end computer on a tight budget without sacrificing performance.</p>
+						</li>
+						<li>
+							<h3>Web Development Guru/Superstar</h3>
+							<p>I mean, look at this beautiful website.</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="sidebarnavigation">
+					<ul>
+						<li><a href="#heading" class="btn btnTop">Top</a> </li>
+						<li><a href="#overview" class="btn btnOverview">Overview</a></li>
+						<li><a href="#contact" class="btn btnContact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="mainandside">
+				<div id="contact">
+					<h2>Contact Me!</h2>
+					<form id="contactForm">
+						<fieldset>
+						<ul>
+							<li>
+								<label for="name">Name:</label>
+								<input type="Text" name="name" id="name"/>
+								<p class="nameError error" id="name_error">* Required field</p>
+							</li>
+							<li>
+								<label for="email">Email Address:</label>
+								<input type="text" name="email" id="email"/>
+								<p class="emailError error" id="email_error">* Invalid email address</p>
+							</li>
+							<li>
+								<label for="phone">Phone Number:</label>
+								<input type="text" name="phone" id="phone" placeholder="e.g. (204) 222-2222" />
+								<p class="phoneError error" id="phone_error">* Invalid phone number</p>
+							</li>
+							<li>
+								<label for="reason">Reason for contact:</label>
+								<select id="reason">
+									<option value="select">Select One</option>
+									<option value="hire">I want to hire!</option>
+									<option value="chat">I just wanna chat.</option>
+									<option value="nsa">I am a surveillance officer collecting intel.</option>
+								</select>
+							</li>
+							<li>
+								<textarea name="comments" id="comments" placeholder="Comments..."></textarea> 
+							</li>
+						</ul>
+						</fieldset>
+						<p id="buttoncontainer">
+							<button type="reset" id="reset">Reset</button>
+							<button type="submit" id="submit">Submit</button>
+						</p>
+					</form>	
+
+
+				</div>
+				<div class="sidebarnavigation">
+					<ul>
+						<li><a href="#heading" class="btn btnTop">Top</a> </li>
+						<li><a href="#overview" class="btn btnOverview">Overview</a></li>
+						<li><a href="#qualifications" class="btn btnQualifications">Qualifications</a></li>
+					</ul>
+				</div>
+			</div>
+		</main>
+
+
+
+		<footer>
+			<h6>1792 Pemina Hwy, Winnipeg, MB | R3T 2G2</h6>
+			<ul>
+				<li><a href="#heading" class="btn btnTop">Top</a> </li>
+				<li><a href="#overview" class="btn btnOverview">Overview</a></li>
+				<li><a href="#qualifications" class="btn btnQualifications">Qualifications</a></li>
+				<li><a href="#contact" class="btn btnContact">Contact</a></li>
+			</ul>
+		</footer>
+	</div>
+</body>
+</html>
